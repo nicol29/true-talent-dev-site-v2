@@ -397,33 +397,33 @@ footer > img {
 
 .globoserv {
   width: 270px;
-  filter: grayscale(1) brightness(170%);
+  /* filter: grayscale(1) brightness(170%); */
 }
 
 .lencon {
   width: 140px;
-  filter: grayscale(1) brightness(55%);
+  /* filter: grayscale(1) brightness(55%); */
   border-radius: 3px;
 }
 
 .mg {
   width: 80px;
-  filter: grayscale(1) brightness(90%);
+  /* filter: grayscale(1) brightness(90%); */
 }
 
 .mmps {
   width: 120px;
-  filter: grayscale(1) brightness(130%);
+  /* filter: grayscale(1) brightness(130%); */
 }
 
 .nevin {
   width: 130px;
-  filter: grayscale(1) brightness(270%) contrast(0.5);
+  /* filter: grayscale(1) brightness(270%) contrast(0.5); */
 }
 
 .refurb {
   width: 130px;
-  filter: grayscale(1) brightness(190%);
+  /* filter: grayscale(1) brightness(190%); */
 }
 
 .cunningham img {
@@ -432,7 +432,7 @@ footer > img {
 
 .tolmac {
   width: 90px;
-  filter: grayscale(1) brightness(140%);
+  /* filter: grayscale(1) brightness(140%); */
   padding-right: 45px;
 }
 
