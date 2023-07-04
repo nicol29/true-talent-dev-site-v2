@@ -15,35 +15,44 @@
       <div class="icon-container" role="button" aria-label="Toggle Menu" tabindex="0">
         <div class="menu-manager" data-active="false"></div>
       </div>
-      <span>TRUE TALENT DEVELOPMENT</span>
+      <a href="" class="company-name">TRUE TALENT DEVELOPMENT</a>
       <nav class="header-nav" data-active="start">
         <ul>
           <li><a href="">HIRE</a></li>
-          <hr>
           <li><a href="">STAFFING SOLUTIONS</a></li>
-          <hr>
           <li><a href="">PROJECTS</a></li>
-          <hr>
-          <li class="contact-link" tabindex="0">CONTACT</li>
+          <li class="contact-link" tabindex="0" role="link" aria-label="Contact Us">CONTACT</li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="hero-container">
-        <img class="banner-img" src="./assets/images/jeriden-villegas-VLPUm5wP5Z0-unsplash(mobile).jpg" alt="Hero banner" srcset="./assets/images/jeriden-villegas-VLPUm5wP5Z0-unsplash(mobile).jpg 500w, ./assets/images/jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg 1000w">
+        <picture class="banner-img">
+          <source srcset="./assets/images/mobile/webp/jeriden-villegas-VLPUm5wP5Z0-unsplash.webp" media="(max-width: 450px)" type="image/webp">
+          <source srcset="./assets/images/tablet/webp/jeriden-villegas-VLPUm5wP5Z0-unsplash.webp" media="(min-width: 450px) and (max-width: 999px)" type="image/webp">
+          <source srcset="./assets/images/desktop/webp/jeriden-villegas-VLPUm5wP5Z0-unsplash.webp" media="(min-width: 1000px)" type="image/webp">
+          <source srcset="./assets/images/mobile/jpg/jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg" media="(max-width: 450px)" type="image/jpg">
+          <source srcset="./assets/images/tablet/jpg/jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg" media="(min-width: 450px) and (max-width: 999px)" type="image/jpg">
+          <source srcset="./assets/images/desktop/jpg/jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg" media="(min-width: 1000px)" type="image/jpg">
+          <img src="./assets/images/desktop/jpg/jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg" alt="Carpenter at work">
+        </picture>
         <div class="hero-overlay">
           <h1>Carpentry <span class="h1-regular">Contractors <br>and <br></span>Recruitment <br><span class="h1-italic">Specialists</span></span></h1>
           <h2>Recruitment for people who want more</h2>
           <a href="">
-            <button tabindex="-1">HIRE STAFF</button>
+            <button class="transparent-button" tabindex="-1"><div>HIRE STAFF</div></button>
           </a>
         </div>
       </section>
       <section class="about-container">
         <div class="max-width">
-          <div class="about-img-container">
-            <img src="./assets/images/chandler-cruttenden-lVkLebCwHig-unsplash(mobile).jpg" alt="Carpenter using a square" srcset="./assets/images/chandler-cruttenden-lVkLebCwHig-unsplash(mobile).jpg 500w, ./assets/images/chandler-cruttenden-lVkLebCwHig-unsplash.jpg 1000w">
-          </div>
+          <picture class="about-img-container">
+            <source srcset="./assets/images/mobile/webp/chandler-cruttenden-lVkLebCwHig-unsplash.webp" media="(max-width: 450px)" type="image/webp">
+            <source srcset="./assets/images/desktop/webp/chandler-cruttenden-lVkLebCwHig-unsplash.webp" media="(min-width: 451px)" type="image/webp">
+            <source srcset="./assets/images/mobile/jpg/chandler-cruttenden-lVkLebCwHig-unsplash.jpg" media="(max-width: 450px)" type="image/jpeg">
+            <source srcset="./assets/images/desktop/jpg/chandler-cruttenden-lVkLebCwHig-unsplash.jpg" media="(min-width: 451px)" type="image/jpeg">
+            <img src="./assets/images/desktop/jpg/chandler-cruttenden-lVkLebCwHig-unsplash.jpg" alt="Carpenter using a square">
+          </picture>
           <div class="about-contents">
             <h3>Building <span>Your Vision</span></h3>
             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
@@ -65,7 +74,7 @@
           </div>
         </div>
       </section>
-      <!-- <section class="carousel-container">
+      <section class="carousel-container">
         <div class="max-width">
           <div class="carousel">
             <img class="cunningham" src="./assets/logos/cunningham-logo.png" alt="Cunningham Contacts Logo">
@@ -79,34 +88,36 @@
             <img class="tolmac" src="./assets/logos/tolmac-removebg-preview (1).png" alt="Tolmac Construction Logo">
           </div>
         </div>
-      </section> -->
+      </section>
       <section class="projects-container">
-        <h3>Projects</h3>
-        <div class="projects-grid">
-          <a class="project-card">
-            <img src="./assets/images/brett-jordan-nz-cBSChvUw-unsplash (1).jpg" alt="House extension built in Killarney">
-            <h4>Tallagh Heights</h4>
-          </a>
-          <a class="project-card">
-            <img src="./assets/images/brett-jordan-nz-cBSChvUw-unsplash (1).jpg" alt="House extension built in Killarney">
-            <h4>Abbey Sq</h4>
-          </a>
-          <a class="project-card">
-            <img src="./assets/images/brett-jordan-nz-cBSChvUw-unsplash (1).jpg" alt="House extension built in Killarney">
-            <h4>Abbey Sq</h4>
-          </a>
-          <a class="project-card">
-            <img src="./assets/images/brett-jordan-nz-cBSChvUw-unsplash (1).jpg" alt="House extension built in Killarney">
-            <h4>Tallagh Heights</h4>
-          </a>
-          <a class="project-card">
-            <img src="./assets/images/brett-jordan-nz-cBSChvUw-unsplash (1).jpg" alt="House extension built in Killarney">
-            <h4>Tallagh Heights</h4>
-          </a>
-          <a class="project-card">
-            <img src="./assets/images/brett-jordan-nz-cBSChvUw-unsplash (1).jpg" alt="House extension built in Killarney">
-            <h4>Abbey Sq</h4>
-          </a>
+        <div>
+          <h3>Projects</h3>
+          <div class="projects-grid">
+            <a class="project-card">
+              <img src="./assets/images/brett-jordan-nz-cBSChvUw-unsplash (1).jpg" alt="House extension built in Killarney">
+              <h4>Tallagh Heights</h4>
+            </a>
+            <a class="project-card">
+              <img src="./assets/images/brett-jordan-nz-cBSChvUw-unsplash (1).jpg" alt="House extension built in Killarney">
+              <h4>Abbey Sq</h4>
+            </a>
+            <a class="project-card">
+              <img src="./assets/images/brett-jordan-nz-cBSChvUw-unsplash (1).jpg" alt="House extension built in Killarney">
+              <h4>Abbey Sq</h4>
+            </a>
+            <a class="project-card">
+              <img src="./assets/images/brett-jordan-nz-cBSChvUw-unsplash (1).jpg" alt="House extension built in Killarney">
+              <h4>Tallagh Heights</h4>
+            </a>
+            <a class="project-card">
+              <img src="./assets/images/brett-jordan-nz-cBSChvUw-unsplash (1).jpg" alt="House extension built in Killarney">
+              <h4>Tallagh Heights</h4>
+            </a>
+            <a class="project-card">
+              <img src="./assets/images/brett-jordan-nz-cBSChvUw-unsplash (1).jpg" alt="House extension built in Killarney">
+              <h4>Abbey Sq</h4>
+            </a>
+          </div>
         </div>
         <a href="">
           <span>View all projects</span>
@@ -143,7 +154,7 @@
               <label for="message">Message</label>
               <textarea name="message" id="message"></textarea>
             </div>
-            <button>Submit</button>
+            <button class="transparent-button form-submit-button"><div>Submit</div></button>
           </form>
         </div>
       </section>
@@ -177,6 +188,7 @@
         </div>
       </div>
       <img src="./assets/logos/true-talent-dev-logo.png" alt="True Talent Development logo">
+      <p class="copyright">&copy; 2023 True Talent Development. All rights reserved.</p>
     </footer>
   </body>
 </html>
