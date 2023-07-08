@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
     <script src="./javascript/index.js" defer></script>
-    <script src="./javascript/utils/navbar.js" defer></script>
     <title>Carpentry Contractors and Recruitment Specialists</title>
   </head>
   <body>
@@ -15,14 +14,21 @@
       <div class="icon-container" role="button" aria-label="Toggle Menu" tabindex="0">
         <div class="menu-manager" data-active="false"></div>
       </div>
-      <a href="" class="company-name">TRUE TALENT DEVELOPMENT</a>
+      <div class="header-logo-container">
+        <img src="./assets/logos/true-talent-dev-logo.png" alt="True Talent Development logo">
+        <a href="" class="company-name">TRUE TALENT DEVELOPMENT</a>
+      </div>
       <nav class="header-nav" data-active="start">
         <ul>
-          <li><a href="">HIRE</a></li>
+          <li><a href="/hire-staff.html">HIRE</a></li>
           <li><a href="">STAFFING SOLUTIONS</a></li>
           <li><a href="">PROJECTS</a></li>
           <li class="contact-link" tabindex="0" role="link" aria-label="Contact Us">CONTACT</li>
         </ul>
+        <div class="nav-logo-container">
+          <img src="./assets/logos/true-talent-dev-logo.png" alt="True Talent Development logo">
+          <span>TRUE TALENT DEVELOPMENT</span>
+        </div>
       </nav>
     </header>
     <main>
@@ -124,7 +130,7 @@
           <img src="./assets/icons/arrow-right.svg" alt="Arrow icon to view all projects">
         </a>
       </section>
-      <section class="contact-container">
+      <section class="contact-container" id="contact">
         <div class="max-width">
           <div class="contact-group">
             <h3>Got a Question?</h3>
@@ -160,6 +166,10 @@
       </section>
     </main>
     <footer>
+      <div class="logo-container">
+        <img src="./assets/logos/true-talent-dev-logo.png" alt="True Talent Development logo">
+        <span>TRUE TALENT DEVELOPMENT</span>
+      </div>
       <div class="footer-links-container">
         <div>
           <h5>Services</h5>
@@ -187,7 +197,6 @@
           </p>
         </div>
       </div>
-      <img src="./assets/logos/true-talent-dev-logo.png" alt="True Talent Development logo">
       <p class="copyright">&copy; 2023 True Talent Development. All rights reserved.</p>
     </footer>
   </body>
